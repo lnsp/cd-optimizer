@@ -45,6 +45,6 @@ public class Song
 	
 	public String toString()
 	{
-		return name + " - " + length + " minutes";
+		return name + " - " + length + " seconds";
 	}
 }

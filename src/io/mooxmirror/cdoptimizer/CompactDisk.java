@@ -87,7 +87,7 @@ public class CompactDisk
 		builder.append('\n');
 		
 		for (Song song : getAllSongs())
-			builder.append(song.toString());
+			builder.append(song.toString() + "\n");
 		
 		return builder.toString();
 	}
