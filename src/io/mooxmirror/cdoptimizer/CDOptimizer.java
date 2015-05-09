@@ -87,7 +87,7 @@ public class CDOptimizer
 		List<Song> songData = new LinkedList<Song>();
 		
 		String line = "";
-		while (!(line = input.nextLine()).isEmpty())
+		while (input.hasNextLine() && !(line = input.nextLine()).equals(""))
 		{
 			int length;
 			String title = "";
